@@ -2,8 +2,8 @@ version: 2
 general:
   branches:
     only:
-      - master
-      - ci
+      # - master
+      - circleci
 jobs:
  build:
    machine: # Because appsody mounts local directories into running test container
